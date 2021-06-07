@@ -1,0 +1,9 @@
+prototype(ViennaJS.Site:Content.Button) < prototype(Neos.Neos:ContentComponent) {
+    label = Neos.Neos:Editable {
+        property = 'label'
+    }
+    link= ${q(node).property('link')}
+    renderer = afx`
+        <Carbon.Link:Link link={props.link} additionalClass="viennajs-site-button">{props.label}</Carbon.Link:Link>
+    `
+}

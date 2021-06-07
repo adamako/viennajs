@@ -1,0 +1,23 @@
+
+'ViennaJS.Site:Content.Button':
+  superTypes:
+    'Neos.Neos:Content': true
+    'ViennaJS.Site:Mixin.InspectorGeneral': true
+  ui:
+    label: Button
+    icon: icon-link
+    position: 400
+    inlineEditable: true
+  properties:
+    label:
+      aloha:
+        placeholder: 'Enter label here...'
+      options:
+        preset: 'text.plain'
+    link:
+      type: string
+      ui:
+        label: 'Link target'
+        inspector:
+          group: general
+          editor: 'Neos.Neos/Inspector/Editors/LinkEditor'

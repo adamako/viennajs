@@ -4,8 +4,25 @@
  */
 
 body {
-    margin: 0;
     padding: 0;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.viennajs-site-button{
+    background-color: #00ADEE;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 8px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.viennajs-site-button:hover,
+.viennajs-site-button:active,
+.viennajs-site-button:focus{
+    background-color: #0c3d5d;
 }
 
 /**
