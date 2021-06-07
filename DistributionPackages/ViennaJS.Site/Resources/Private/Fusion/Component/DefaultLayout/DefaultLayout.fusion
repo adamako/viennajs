@@ -1,0 +1,9 @@
+prototype(ViennaJS.Site:Component.DefaultLayout) < prototype(Neos.Fusion:Component) {
+    content = ''
+
+    renderer = afx`
+        <ViennaJS.Site:Component.Header />
+        {props.content}
+        <ViennaJS.Site:Component.Footer />
+    `
+}

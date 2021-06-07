@@ -1,0 +1,14 @@
+'ViennaJS.Site:Document.AbstractPage':
+  abstract: true
+  superTypes:
+    'Neos.Neos:Document': true
+  childNodes:
+    main:
+      type: 'Neos.Neos:ContentCollection'
+      constraints:
+        nodeTypes:
+          'ViennaJS.Site:Constraint.Content.Restricted': false
+  constraints:
+    nodeTypes:
+      'ViennaJS.Site:Document.HomePage': false
+      'ViennaJS.Site:Constraint.Document.Restricted': false

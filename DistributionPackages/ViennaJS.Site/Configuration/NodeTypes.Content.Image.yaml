@@ -1,0 +1,8 @@
+'ViennaJS.Site:Content.Image':
+  superTypes:
+    'Neos.Neos:Content': true
+    'ViennaJS.Site:Mixin.Image': true
+  ui:
+    label: Image
+    icon: icon-picture
+    position: 300
